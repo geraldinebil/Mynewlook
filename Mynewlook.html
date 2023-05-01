@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,11 +17,14 @@
 
   <nav class="level" style="font-family: 'Nothing You Could Do', cursive;font-size: 25px; font-weight: bolder; ">
     <img src="Image\Nuage et bébé.jpg" alt="" style="z-index: -1;position: absolute; height: 230px;margin-top: 10px;padding-top: 10px; width: 2100px;">
-    <p class="level-item has-text-centered">
+    <p class="level-item has-text-centered" style="font-family: font-family: 'Nothing You Could Do', cursive;;">
       <a class="link is-info" style="color: rgb(199, 99, 175);">Accueil</a>
     </p>
     <p class="level-item has-text-centered">
       <a class="link is-info" style="color: rgb(199, 99, 175);">Vêtements</a>
+    </p>
+    <p class="level-item has-text-centered">
+      <a class="link is-info" style="color: rgb(199, 99, 175);">Accessoires</a>
     </p>
     <p class="level-item has-text-centered">
       <img src="Image\Logo my new look.png" alt="" style="height: 200px;">
@@ -27,161 +33,87 @@
       <a class="link is-info" style="color: rgb(199, 99, 175);">Chaussures</a>
     </p>
     <p class="level-item has-text-centered">
-      <img src="Image\Panier.png" alt="" style="width: 100px ;">
+      <a class="link is-info" style="color: rgb(199, 99, 175);">Cadeaux</a>
+    </p>
+    <p class="level-item has-text-centered">
+      <img src="Image\Panier.png" alt="" style="width: 50px ;">
       <a class="link is-info" style="color: rgb(199, 99, 175); padding-left: 20px;">Panier</a>
     </p>
   </nav>
-
+<!--Navbar-->
 <div class="content" style="text-align: center;">
-<h1 class="has-text-info" style="font-weight: bolder; font-size: 40px;">My new look: nouveau look pour une nouvelle vie.</h1>
-<p class="has-text-info" style="font-weight: bolder;font-size: 20px;">La grossesse: beaucoup de bonheur beaucoup de joie, mais quelle plaie de 
+<h1 class="has-text-info" style="font-weight: bolder; font-size: 40px;font-family: 'Nothing You Could Do', cursive;">My new look: nouveau look pour une nouvelle vie.</h1>
+<p class="has-text-info" style="font-weight: bolder;font-size: 20px;font-family: 'Nothing You Could Do', cursive;;">La grossesse: beaucoup de bonheur beaucoup de joie, mais quelle plaie de 
   trouver de jolis vêtements à un prix abordable. Chez new look plus de
    soucis. Chez nous vous trouverez de beaux vêtements à un prix abordable. Robe, manteau, maillot de bain...? Trouvez tout ce que vous voulez
     pour toutes les occasions. Nous avons aussi un large choix d'accessoires pour l'allaitement. Donc n'hésitez pas, venez visiter notre site et 
     soyez comblé et heureuse pour vivre votre grossesse en toute sérénité.  </p>
 </div>
-  <!--Robe-->
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Robe.webp" alt="Placeholder image" >
-      </figure>
+<!--Image centrale-->
+<div class="card" style="width: 1200px;margin-left: 350px;">
+  <div class="card-image" style="width: 1200px;">
+    <figure class="image is-4by3">
+      <img src="Image\cMy new look.png" alt="Placeholder image">
+    </figure>
+  </div>
+</div>
+  <!--Footer-->
+<footer class="section">
+  <div class="container">
+    <div class="columns is-multiline" style="border-bottom: 1px solid #000000;">
+      <div class="column is-3 mb-5">
+        <a class="mb-4 is-inline-block" href="#">
+        </a>
+        <img src="Image\Logo my new look.png" alt="" style="width: 250px;">
+        <div>
+          <a class="mr-3 is-inline-block" href="#">
+            <img class="mx-auto image is-fullwidth" src="Image\Facebook.png" style="width: 50px;">
+          </a>
+          <a class="mr-3 is-inline-block" href="#">
+            <img class="mx-auto image is-fullwidth" src="Image\Instagram.png"style="width: 50px;">
+          </a>
+          <a class="mr-3 is-inline-block" href="#">
+            <img class="mx-auto image is-fullwidth" src="Image\Linkedin.png"style="width: 50px;">
+          </a>
+          <a class="mr-3 is-inline-block" href="#">
+            <img class="mx-auto image is-fullwidth" src="Image\Twitter.png"style="width: 50px;">
+          </a>
+        </div>
+      </div>
+      <div class="column is-9">
+        <div class="columns is-multiline">
+          <div class="column is-6 is-3-desktop mb-5" style="font-family: 'Nothing You Could Do', cursive;padding-right: 100px;">
+            <h4 class="is-size-4 has-text-weight-bold mb-4">INFOS PRATIQUES</h4>
+            <ul>
+              <li class="mb-2"><a class="button is-white" href="#">Guide des tailles</a></li>
+              <li class="mb-2"><a class="button is-white" href="#">Mentions légales</a></li>
+              <li class="mb-2"><a class="button is-white" href="#">Points de fidélité</a></li>
+              <li><a class="button is-white" href="#">Article de presse</a></li>
+              <li><a class="button is-white" href="#">La créatrice, l'histoire, les valeurs</a></li>
+            </ul>
+          </div>
+          <div class="column is-6 is-3-desktop mb-5" style="font-family: 'Nothing You Could Do', cursive;">
+            <h4 class="is-size-4 has-text-weight-bold mb-4">A PROPOS</h4>
+            <ul>
+              <li class="mb-2"><a class="button is-white" href="#">SAV</a></li>
+              <li class="mb-2"><a class="button is-white" href="#">Service clients</a></li>
+              <li class="mb-2"><a class="button is-white" href="#">Livraisons et retours</a></li>
+              <li><a class="button is-white" href="#">FAQ</a></li>
+              <li><a class="button is-white" href="#">Nos engagements écologiques</a></li>
+            </ul>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20989.851319477846!2d2.217822172485249!3d48.88239648708383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1682948482642!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe >
+         
+        </div>
+      </div>
+    </div>
+    <div class="pt-5 has-text-centered" style="font-family: 'Nothing You Could Do', cursive;">
+      <p>All rights reserved © Wireframes Corporation 2023</p>
     </div>
   </div>
+</footer>
 
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Chemise.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-       
-    </div>
-  </div>
 
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Lingerie.jpg" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-       
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Maillot de bain.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-       
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Manteau.jpg" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-        
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Nuit.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-        
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Pantalon.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-        
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Pull.jpg" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-      
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Short.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-       
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Sport.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-      
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\T-shirt.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-        
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Top.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-        
-    </div>
-  </div>
-
-  <div class="card" style="width: 300px;">
-    <div class="card-image" style="height: 500px;">
-      <figure class="image is-128x128" style="width: 350px;">
-        <img src="Image\Jupe.webp" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-        
-    </div>
-  </div>
-
-  
 
 </body>
 
